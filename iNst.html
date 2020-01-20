@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-color: #777;
+            }
+            *{
+                font-family: Arial;
+            }
+            .whole_body
+            {
+                text-align: center;
+                background-color: #fff;
+                padding: 10px;
+                box-shadow: 0 0 10px 2px #333;
+                width: 300px;
+                height: 550px;
+                position: absolute;
+                left: 50%;
+                top: 100px;
+                transform: translateX(-50%);
+            }
+            .insta-logo
+            {
+                width: 100%;
+                height: 70px;
+                margin-bottom: 10px;
+
+            }
+            .Image
+            {
+                width: 100%;
+                height: 50px;
+                padding-top: 10px;
+
+            }
+            .Text{
+                  width: 100%;
+                  height: 25px;   
+                  font-size: 13px;          
+                  text-align: center;     
+            }
+            .form{
+                margin-top: 10px;
+            }
+            .type-input
+            {
+                margin-top: 10px;
+                border: 2px,solid,#777;
+                padding-left: 10px;
+                padding-right: 10px;
+                width: 260px;
+                height: 40px;
+                border-radius: 4px;
+
+                
+            }
+            .type-input:hover
+            {
+                background-color: antiquewhite;
+            }
+            .footer
+            {
+                
+            }
+        </style>
+
+    </head>
+    <body>
+    <div class="whole_body">
+        <div   class="insta-logo">
+            <div class="Image">
+                <img src="InstagramLogo.png" style="width: 200px; ">
+            </div>
+            <div class="Text">
+                <a>
+                    Sign Up to See Photos from your Friends.
+                </a>
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <input type="text" placeholder="Email Or Mobile_No." id="email" class="type-input">
+              <input type="text"   placeholder="Full name"  id="fn" class="type-input">
+              <input type="text"   placeholder="Username" id="User" class="type-input">
+              <input type="password" placeholder="password" id="password" class="type-input">
+              <br>
+              <button class="type-input" style="background-color: burlywood;">
+                  Sign In
+              </button>
+
+            </form>
+              
+        </div>
+        <div class="footer">
+              Already Have Account
+              <button style="background-color: burlywood;">
+                  Log in
+              </button>
+        </div>
+    </div>
+    </body>
+</html>
