@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <style>
+            
+            *
+            {
+                font-family: Arial;
+            }
+            .fb-login{
+                width: 100%;
+                height: 100px;
+                left: 0;
+                top: 0;
+                background-color: #3B5998;
+                position: absolute;
+            }
+            .ex-input :hover
+            {
+                background-color: violet;
+            }
+            .simple{
+                width: auto;
+            
+                left: 0;
+                top: 0;
+                left: 18%;
+                font-size: 45px;
+                position: absolute;
+                color: white;
+                line-height: 100px;
+                
+            }
+            .image{
+                position: absolute;
+                top: 150px;
+                right: 35%;
+                z-index: -10;
+            }
+            .data-input{
+                width: auto;
+                height: 100%;
+                position: absolute;
+                right: 18%;
+                top: 0;
+                z-index: 10;
+            }
+            .sign-up{
+                width: 100%;
+                height: auto;
+                top: 100;
+                position: absolute;
+
+            }
+            .form{
+                width: 350px;
+                height: auto;
+                right: 18%;
+                position: absolute;
+            }
+            .ex-input{
+                border:  thin solid #777;
+                height: 30px;
+                margin-top: 15px;
+                font-weight: 600;
+                border-radius: 6px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fb-login">
+             <div class="simple">
+                facebook             </div>
+             <div class="data-input">
+                 <table >
+                 <tr>
+                     <td>
+                         Email Or Phone
+                     </td>
+                     <td>
+                         Password
+                     </td>
+                     <td>
+
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                        <input type="text" >
+                     </td>
+                     <td>
+                     <input type="text">
+                     </td>
+                     <td>
+                        <button style="background-color: #3B5998; color: white;">
+                            Log In
+                        </button>
+                     </td>
+                     </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        Forgot Passwoerd
+                    </td>
+                </tr>
+                        
+                 </table>
+             </div>
+        </div>
+        <div class="sign-up">
+            <div class="form">
+            <table>
+                <tr>
+                    <td colspan="2" style="font-size: 35px; font-weight: 600; opacity: 0.8;">
+                        Create an account
+                    </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="font-size: 25px; font-weight: 600; opacity: 0.8;">Its Quick And Easy</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="First Name" class="ex-input">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Surname" class="ex-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="number" placeholder="Mobile Number" class="ex-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="password" placeholder="Password" class="ex-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Birthday
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                          <input type="date" placeholder="dd/mm/yy" class="ex-input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <input type="radio" >Male<input type="radio">Female
+                    <input type="radio">Other
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="font-weight: 200; font-size: 10px;">
+                        
+				    By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+					
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style="width: 150px; height: 35px; font-size: 20px; background-color: forestgreen; color: white; border: 3px solid #777; border-radius: 8px;">Sign Up</button>
+                    </td>
+                </tr>
+            </table>
+                </div>
+        </div>
+        <div class="image">
+            <img src="network.png" >
+        </div>
+    </body>
+</html>
